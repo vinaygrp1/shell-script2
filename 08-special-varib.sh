@@ -6,4 +6,5 @@ echo "script Name: $0"
 echo "current working directory:$PWD"
 echo "Home directory of current user: $HOME"
 echo "which user is Running this script:$USER"
+echo ""Hostname:"$HOSTNAME"
 
