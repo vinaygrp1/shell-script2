@@ -7,10 +7,10 @@ G="\e[32m"
 Y="\e[33m"
 N="\e[0m"
 
-if[ -d $SOURCE_DIRECTORY ]
+if [ -d $SOURCE_DIRECTORY ]
 then
-    echo -e "$G Source_Directory Exists $N"
+    echo -e "$G Source_Directory exists $N"
 else
-    echo -e "$RPlease make sure $SOURCE-DIRECTORY exists $N"
+    echo -e "$R Please make sure $SOURCE-DIRECTORY exists $N"
     exit 1
 fi
