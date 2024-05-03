@@ -11,7 +11,7 @@ if [ -d $SOURCE_DIRECTORY ]
 then
     echo -e "$G Source_Directory exists $N"
 else
-    echo -e "$R Please make sure $SOURCE-DIRECTORY exists $N"
+    echo -e "$R Please make sure $SOURCE_DIRECTORY exists $N"
     exit 1
 fi
 FILES=$(find $SOUCRE_DIRECTORY -name "*.log" -mtime +14)
