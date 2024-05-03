@@ -8,8 +8,10 @@ Y="\e[33m"
 N="\e[0m"
 
 if [ -d $SOURCE_DIRECTORY ]
+
 then
     echo -e "$G Source_Directory exists $N"
+    
 else
     echo -e "$R Please make sure $SOURCE_DIRECTORY exists $N"
     exit 1
