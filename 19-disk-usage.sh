@@ -11,7 +11,7 @@ do
     if [ $USAGE -ge $DISK_THRESHOLD ]
     #if [ $USAGE -ge $DISK_THRESHOLD ]
     then
-        MESSAGE="$FOLDER is more than $DISK_THRESHOLD, Current usage: $USAGE"
+        MESSAGE+="$FOLDER is more than $DISK_THRESHOLD, Current usage: $USAGE"
     fi
 
 done <<< $DISK_USAGE 
